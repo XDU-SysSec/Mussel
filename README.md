@@ -33,4 +33,17 @@ This research builds upon previous work in vulnerability repair and LLM optimiza
 
 We would like to express our gratitude to the [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) project, which provided the foundational framework and infrastructure that made this research possible. Their comprehensive and well-designed toolkit for LLM fine-tuning significantly accelerated our development process.
 
-*Note: We are organizing the data and related scripts and will release the updated dataset and associated materials shortly.*
+## Note:
+
+Due to significant upgrades in several key dependencies and the integration of newer library versions, the training code
+is currently undergoing active reorganization and refactoring.
+We are working diligently to ensure compatibility with the latest ecosystem.
+
+**Current Status:**
+
+- The core training algorithm and methodology remain stable and functional
+- We are updating dependency specifications
+- Documentation for the training pipeline is being revised to reflect recent changes
+- We expect to complete this reorganization in the near future
+
+We appreciate your patience during this transition period.
