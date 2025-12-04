@@ -20,7 +20,7 @@ This artifact implements MUSSEL (MUlti-Sample SElf-reward Learning), a novel app
 
 ## Core Implementation
 
-The core implementation is located at `src/llmtuner/train/dpo/trainer.py` in the `dpo_multiple_loss_weighted` method. This method:
+This method:
 
 1. Processes multiple rejected candidates for each chosen sample
 2. Computes KL-divergence between the chosen sample and each rejected candidate
